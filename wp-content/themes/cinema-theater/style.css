@@ -1,0 +1,221 @@
+/*
+Theme Name: Cinema Theater
+Template: film-maker-lite
+Text Domain: cinema-theater
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/products/free-theater-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Cinema Theater is a stunning free WordPress theme well suited for cinema, theaters, play directors, film directors, film production houses, movie studios, film festivals, documentary makers, animation studios, and filmmakers.  It serves as a multipurpose theme for entertainment and the creative industry and brings you a responsive and user-friendly design. With clean and sophisticated design showing your skills, you can easily portray the best side of your work through your theater website. Minimal design is the key as all the focus is concentrated immediately on the important information published. There is a beautiful banner and various other well-designed sections such as team, testimonials, etc. Most importantly, it has Call to Action Buttons (CTA) included that will make your website have an interactive environment and guide the visitors. Social media options are also available and stunning CSS animations included in the design will make your website look more interesting.  Optimized codes result in faster page load time and deliver a wonderful online experience that your visitors will cherish. This theme is also made SEO-friendly to make it grab the best ranks on the search engine results page. The Bootstrap framework is used for making the theme robust and WPML and RTL compatibility makes your website translation ready.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, featured-image-header, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, blog, portfolio, photography
+Version: 3.3
+Tested up to: 6.4
+Requires PHP: 5.6
+Requires at least: 5.0
+*/
+
+#main-content a,.box-content p a,.box-content li a{
+  text-decoration: underline;
+}
+
+/* Color CSS */
+#theme-sidebar h2.wp-block-heading,#theme-sidebar h3, #theme-sidebar h1.wp-block-heading, #theme-sidebar .wp-block-search .wp-block-search__label, #theme-sidebar h2.wp-block-heading, #theme-sidebar h3.wp-block-heading, #theme-sidebar h4.wp-block-heading, #theme-sidebar h5.wp-block-heading, #theme-sidebar h6.wp-block-heading {
+    color: #fb7893;
+}
+p.wp-block-tag-cloud a:hover,#footer li a:hover,#theme-sidebar li a:hover{
+  color: #fb7893;
+} 
+button[type="submit"],.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.wc-block-cart__submit-container a,.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button,.book-tkt-btn a,#theme-sidebar button[type="submit"], .error-404 [type="submit"], #footer button[type="submit"],.prev.page-numbers, .next.page-numbers,.page-numbers,.site-info,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.wp-block-file .wp-block-file__button, .wp-block-button .wp-block-button__link,span.meta-nav,#slider .inner_carousel p,.more-btn a,.box:before, .box:after,#comments input[type="submit"],#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,.top-header,#latest-release .owl-nav i:hover{
+  background-image: linear-gradient(to right, #6e0af7 , #fb7893);
+}
+a:hover,#theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,.main-navigation a:hover, .main-navigation .current_page_ancestor > a,#theme-sidebar h3,#theme-sidebar a:hover,h1, h2, h3, h4, h5, h6,h2.woocommerce-loop-product__title, .woocommerce div.product .product_title,.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+  color: #383838;
+}
+.page-template-front-page .media-links a:hover,.media-links a i:hover,a.added_to_cart.wc-forward ,.readmore-btn a ,a,.box-info i,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a{
+  color: #fb7893;
+}
+#footer .tagcloud a:hover,#footer p.wp-block-tag-cloud a:hover,.readmore-btn a {
+  border-color: #fb7893;
+  color: #fb7893;
+}
+
+#theme-sidebar .widget_tag_cloud a:hover,.wp-block-tag-cloud a:hover,#theme-sidebar .tagcloud a:hover{
+  border-color: #fb7893;
+  color: #fb7893;
+}
+#theme-sidebar .wp-block-search .wp-block-search__label:before,#theme-sidebar h3:before, #theme-sidebar h1.wp-block-heading:before, #theme-sidebar h2.wp-block-heading:before, #theme-sidebar h3.wp-block-heading:before,#theme-sidebar h4.wp-block-heading:before, #theme-sidebar h5.wp-block-heading:before, #theme-sidebar h6.wp-block-heading:before {
+  background-color: #fb7893;
+}
+.page-box,#theme-sidebar section{
+  border-left-color: #fb7893;
+  border-bottom-color: #fb7893;
+}
+
+.wc-block-cart__submit-container a:hover{
+  background: #000;
+}
+.readmore-btn a:hover{
+  color: #000;
+}
+.readmore-btn a:hover{
+  border-color: #000;
+}
+
+/* Header CSS */
+
+.topbar-home{
+  display: none;
+}
+.top-home {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.top-home .top-header {
+  display: block;
+  background: rgb(255 255 255 / 30%);
+}
+.page-template-front-page .media-links span:after, .page-template-front-page span.call-text:after{
+  top: 12px;
+  border-color: #ffffff;
+}
+.page-template-front-page .media-links a,input[type="text"], input[type="email"], input[type="phno"], input[type="password"], input#url, textarea,.actors-box-content h3 a,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon{
+  color: #fff;
+}
+.main-navigation ul ul,#slider,#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover{
+  background: #383838;
+}
+.comment-body {
+  color: #676767;
+}
+/* Slider CSS */
+
+#slider .carousel-control-next{
+  right: 0;
+  left: auto;
+}
+#slider .carousel-control-next, #slider .carousel-control-prev {
+  width: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#slider .inner_carousel p {
+  border-radius: 30px;
+}
+
+/* latest release CSS */
+
+.pull-up-box{
+  margin-top: 0;
+}
+
+.actors-box {
+  position: relative;
+}
+.actors-box-content {
+  position: absolute;
+  bottom: 0;
+}
+.actors-box-content h3 {
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 0;
+}
+.center1 {
+  border-left-color: #fb7893;
+  border-top-color: #fb7893;
+}
+.center2 {
+  border-left-color: #6e0af7;
+  border-top-color: #6e0af7;
+}
+.center1 .ring::before {
+  background: #fb7893;
+  box-shadow: 0 0 0 10px rgb(251 120 147 / 30%), 0 0 10px 15px rgb(251 120 147 / 50%);
+}
+.center2 .ring::before {
+  background: #6e0af7;
+  box-shadow: 0 0 0 10px rgb(110 10 247 / 30%), 0 0 10px 15px rgb(110 10 247 / 50%);
+}
+
+/* OTHER CSS */
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid #333;
+  padding: 2px;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+@media screen and (max-width: 560px){
+  .headerbox.py-3.stick_head {
+    position: static;
+    margin-top: 0px;
+  }
+  #slider .carousel-control-next-icon, #slider .carousel-control-prev-icon{
+    padding: 4px 9px;
+  }
+  #slider .more-btn a{
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+  .top-home .top-header{
+    display: none;
+  }
+  .toggle-nav button{
+    background-image: linear-gradient(to right, #6e0af7 , #fb7893);
+  }
+  .sidenav{
+    background: #1c1c1c;
+  }
+  .main-navigation ul ul{
+    background: transparent;
+  }
+  .top-header a{
+    letter-spacing: 3px;
+  }
+  .nav ul li a:hover {
+    color: #fb7893;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+  .top-home .top-header{
+    display: none;
+  }
+}
